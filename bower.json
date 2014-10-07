@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "version": "0.1",
+  "dependencies": {
+    "fluidbox": "~1.2.2",
+    "jquery": "~1.11.1",
+    "modernizr": "~2.7.2",
+    "normalize-css": "~3.0.0",
+    "fitvids": "~1.1.0",
+    "classie": "~1.0.1",
+    "skidding--dragdealer": "~0.9.7"
+  }
+}

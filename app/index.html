@@ -1,0 +1,97 @@
+---
+layout: default
+title: piment.digital | Sous titre
+---
+
+<div class="container">
+      <header id="header">
+				<h1></h1>
+				<span class="message">This mobile version does not have the slideshow switch</span>
+				<button class="slider-switch">Switch view</button>
+			</header>
+
+      <!-- Image Dragging section -->
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap">
+                <!--<video autoplay loop>
+                  <source src="http://mazwai.com/system/posts/videos/000/000/054/original/danny_lund_the_ranch_studios--rooftop_summer_dinner.mp4" type='video/mp4' />
+                </video>-->
+              </div>
+							<h2 class="logo">piment.digital</h2>
+							<button class="content-switch">Plus des details</button>
+						</div>
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/2.jpg" alt="img2"/></div>
+							<h2>Pack 1<span>Plus d'info</span></h2>
+							<button class="content-switch">Plus des details</button>
+						</div>
+            <div class="slide" data-content="content-3">
+              <div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+              <h2>Pack 2<span>Plus d'info</span></h2>
+              <button class="content-switch">Plus des details</button>
+            </div>
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+							<h2>Pack 3<span>Plus d'info</span></h2>
+							<button class="content-switch">Plus des details</button>
+						</div>
+						<div class="slide" data-content="content-5">
+							<div class="img-wrap"><img src="img/4.jpg" alt="img4"/></div>
+							<h2>Options<span>Plus d'info</span></h2>
+							<button class="content-switch">Plus des details</button>
+						</div>
+						<div class="slide" data-content="content-6">
+							<div class="img-wrap"><img src="img/5.jpg" alt="img5"/></div>
+							<h2>Contact<span>Plus d'info</span></h2>
+							<button class="content-switch">Plus des details</button>
+						</div>
+					</div>
+				</section><!-- /img-dragger-->
+
+
+				<!-- Content section -->
+				<section class="pages">
+					<div class="content" data-content="content-1">
+						<h2>About <span>Distilling design and other interesting methods</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin libero magna, egestas sit amet fringilla quis, pulvinar quis libero. Nulla faucibus neque ac dolor scelerisque, ut gravida dui ultrices. Nullam consequat ornare blandit. Cras tempor at est quis fermentum. Etiam mattis massa eros, molestie gravida massa accumsan eu. Cras viverra dui libero, eu congue orci consequat nec. Praesent fringilla ut turpis sed placerat. Duis dignissim massa sit amet rutrum consequat. Pellentesque consectetur sagittis bibendum. Vivamus eleifend fringilla sem a vulputate. Donec faucibus iaculis erat, ac pharetra elit tristique at. Praesent gravida justo vel sodales aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel sapien imperdiet, malesuada diam ac, iaculis mi.</p>
+					</div>
+					<div class="content" data-content="content-2">
+						<h2>Pack 1 <span>subtitle</span></h2>
+						{% for post in site.categories.fllt limit:10 reversed %}
+              <p>{{ post.content }}</p>
+            {% endfor %}
+					</div>
+					<div class="content" data-content="content-3">
+						<h2>Pack 2 <span>subtitle</span></h2>
+            {% for post in site.categories.ajoto limit:10 reversed %}
+              <p>{{ post.content }}</p>
+            {% endfor %}
+					</div>
+					<div class="content" data-content="content-4">
+						<h2>Pack 3 <span>subtitle</span></h2>
+						{% for post in site.categories.urbbi limit:10 reversed %}
+              <p>{{ post.content }}</p>
+            {% endfor %}
+					</div>
+					<div class="content" data-content="content-5">
+						<h2>Options <span>subtitle</span></h2>
+						{% for post in site.categories.cph limit:10 reversed %}
+              <p>{{ post.content }}</p>
+            {% endfor %}
+					</div>
+          <div class="content" data-content="content-6">
+            <h2>Contact <span>subtitle</span></h2>
+            {% for post in site.categories.cph limit:10 reversed %}
+              <p>{{ post.content }}</p>
+            {% endfor %}
+          </div>
+				</section>
+			</div>
+		</div><!-- /container -->
+	</body>
+
+{% include scripts.html %}
+{% include googleanalytics.html %}

@@ -1,0 +1,115 @@
+.js{
+  .dragslider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1);
+    transition: transform 0.6s cubic-bezier(.7,0,.3,1);
+  }
+
+  .img-dragger {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+
+    .handle {
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      white-space: nowrap;
+      font-size: 0;
+    }
+  }
+
+  .img-dragger-large {
+    width: 100%;
+    height: 100%;
+
+    .slide{
+      h2 {
+        width: 70%;
+        left: 15%;
+        top: 50%;
+        text-align:center;
+        -webkit-transform: translate3d(0,-50%,0);
+        transform: translate3d(0,-50%,0);
+
+        &.logo{
+          //width: 90%;
+          //left: 5%;
+          //top:50%;
+          //font-size: 30em;
+        }
+      }
+    }
+  }
+
+  .img-dragger-small{
+    .slide{
+      h2 {
+        font-size: 2.5em;
+        padding-top: 1em;
+        top: 100%;
+        width: 100%;
+        text-align: center;
+        color: $light-gray;
+        -webkit-animation: slideUpFade 0.4s 0.1s;
+      }
+    }
+  }
+
+  .slide{
+    h2 {
+      color: $light-gray;
+      position: absolute;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+    }
+  }
+
+  .pages {
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: height 0s 0.6s;
+    transition: height 0s 0.6s;
+
+    .content{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+      -webkit-transition: height 0s 0.6s;
+      transition: height 0s 0.6s;
+
+      p, h2{
+        -webkit-transform: translate3d(0,200px,0);
+        transform: translate3d(0,200px,0);
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: cubic-bezier(.7,0,.3,1);
+        transition-timing-function: cubic-bezier(.7,0,.3,1);
+      }
+    }
+  }
+
+  .show-content{
+    .pages{
+      -webkit-transition: none;
+      transition: none;
+      height: 100%;
+    }
+  }
+}

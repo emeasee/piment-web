@@ -1,0 +1,46 @@
+.no-js{
+  .dragslider{
+    h2{
+      padding: 15px;
+    }
+  }
+
+  button.slider-switch {
+    display: none;
+  }
+
+  button.content-switch {
+    display: none;
+  }
+
+  .img-dragger,
+  .img-dragger .handle {
+    height: auto;
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    clear: both;
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  .img-dragger{
+    .handle{
+      padding: 40px 0 0;
+    }
+
+    .slide {
+      width: 300px;
+      font-size: 7px;
+      min-height: 200px;
+    }
+  }
+
+  .pages{
+    .content{
+      h2 {
+        padding-top: 1em;
+      }
+    }
+  }
+}

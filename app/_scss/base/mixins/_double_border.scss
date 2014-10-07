@@ -1,0 +1,6 @@
+@mixin doubleborder {
+  border: 1px solid $base-font-color;
+  outline: 2px solid $base-background-color;
+  outline-offset:1px;
+  background-color: $base-background-color;
+}
