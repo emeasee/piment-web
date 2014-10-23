@@ -1,4 +1,4 @@
-/* jshint undef: false, unused: false, newcap: false, latedef: nofunc */
+/*jshint ignore:start*/
 
 ;( function( window ) {
 
@@ -344,6 +344,7 @@
 
 } )( window );
 
+/*jshint ignore:end*/
 
 
 /* version 1
