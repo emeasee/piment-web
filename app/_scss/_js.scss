@@ -33,9 +33,9 @@
     .slide{
       h2 {
         width: 70%;
-        left: 15%;
+        left: 12%;
         top: 50%;
-        text-align:center;
+        text-align:left;
         -webkit-transform: translate3d(0,-50%,0);
         transform: translate3d(0,-50%,0);
 
@@ -92,7 +92,7 @@
       -webkit-transition: height 0s 0.6s;
       transition: height 0s 0.6s;
 
-      p, h2{
+      div, h2{
         -webkit-transform: translate3d(0,200px,0);
         transform: translate3d(0,200px,0);
         -webkit-transition-property: opacity;

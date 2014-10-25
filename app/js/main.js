@@ -144,6 +144,15 @@
 			slide.querySelector( 'button.content-switch' ).addEventListener( 'click', function() { self._toggleContent( slide ); } );
 		} );
 
+		function MouseWheelHandler(){
+			var currentSlide = self.slides[ self.current ];
+			if( self.isContent ) {
+				return false;
+			} else {
+				self._toggleContent( currentSlide );
+			}
+		}
+
 		// keyboard navigation events
 		document.addEventListener( 'keydown', function( ev ) {
 			var keyCode = ev.keyCode || ev.which,
@@ -178,6 +187,15 @@
 				}
 			}
 		} );
+
+		if (window.addEventListener) {
+			// IE9, Chrome, Safari, Opera
+			window.addEventListener("mousewheel", MouseWheelHandler, false);
+			// Firefox
+			window.addEventListener("DOMMouseScroll", MouseWheelHandler, false);
+		}
+			// IE 6/7/8
+			else window.attachEvent("onmousewheel", MouseWheelHandler);
 	}
 
 	/**

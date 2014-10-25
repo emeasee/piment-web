@@ -1,7 +1,7 @@
 .dragslider{
   h2{
-    font-size: 8em;
-    font-weight: 700;
+    font-size: 6em;
+    font-weight: 300;
     margin: 0 auto;
     line-height: 1;
     position: relative;
@@ -23,13 +23,16 @@
   h2{
     i{
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
     }
   }
 
   &:first-child{
+    button.content-switch{
+      width: 220px;
+    }
     button.content-switch::before {
-      content: 'ABOUT';
+      content: 'VOIR NOS SERVICES';
     }
   }
 }
@@ -98,15 +101,16 @@
     position: absolute;
     display: block;
     height: calc(100% + 0.2px);
-    opacity: 0.5;
+    opacity: 0.2;
   }
 }
 
 .show-content{
   .current{
     button.content-switch {
-      border-color: $medium-gray;
-      color: $medium-gray;
+      border-color: $dark-gray;
+      background: transparent;
+      color: $dark-gray;
       -webkit-transform: translate3d(-50%,100%,0);
       transform: translate3d(-50%,100%,0);
 
@@ -119,13 +123,13 @@
 
 .pages{
   .content{
-    background: $light-gray;
-    text-align: center;
+    background: white;
+    text-align: left;
     color: $base-font-color;
     font-size: 1.5em;
 
     h2{
-      font-size: 5em;
+      font-size: 3em;
       max-width: 70%;
       color: $base-font-color;
       padding: 2.25em 10px 1em;
@@ -147,6 +151,18 @@
         text-align: center;
         font-weight: bold;
       }
+
+      span{
+        font-size: 1.2em;
+        margin:0 auto;
+        max-width: 1100px;
+        color: $base-font-color;
+
+        i{
+          font-size:70%;
+          display:block;
+        }
+      }
     }
 
     a{
@@ -159,12 +175,21 @@
       }
     }
 
+    ul{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.5em 2em;
+      li{
+        font-size: 80%;
+      }
+    }
+
     &.show{
       height: auto;
       -webkit-transition: none;
       transition: none;
 
-      p, h2{
+      div, h2{
         -webkit-transition-duration: 1s;
         transition-duration: 1s;
         -webkit-transition-property: -webkit-transform, opacity;
@@ -173,7 +198,7 @@
         transform: translate3d(0,0,0);
       }
 
-      p{
+      div{
         -webkit-transition-delay: 0.1s;
         transition-delay: 0.1s;
       }
@@ -228,6 +253,7 @@
 @media screen and (max-width: 63.125em) {
 	.dragslider h2 {
 		font-size: 2.8em;
+    left: 15%!important;
 	}
 	.pages .content {
 		font-size: 100%;
