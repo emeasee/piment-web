@@ -263,6 +263,17 @@
             line-height: 0.5;
             float:left;
           }
+          img{
+              width:auto;
+              height:100%;
+              &.profile{
+                width:auto;
+                height:100px;
+                border-radius:50px;
+                float:left;
+                margin-right:10px;
+              }
+          }
         }
         span{
           padding: 1em 0;
