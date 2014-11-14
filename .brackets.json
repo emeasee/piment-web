@@ -5,11 +5,9 @@
             "sass.options": {
                 "includePaths": [
                     "../bower_components/normalize-scss/",
-                    "../bower_components/skidding--dragdealer/src/",
                     "../bower_components/bourbon/dist/",
-                    "../bower_components/bitters/app/assets/stylesheets/",
                     "../bower_components/neat/app/assets/stylesheets/",
-                    "base/"
+                    "../bower_components/skidding--dragdealer/src/"
                 ],
                 "outputDir": "../css/",
                 "imagePath": null,
@@ -17,7 +15,8 @@
                 "outputStyle": "nested"
             },
             "linting.collapsed": false,
-            "mikaeljorhult.bracketsTodo.enabled": false
+            "mikaeljorhult.bracketsTodo.enabled": false,
+            "brackets-git.gitPath": "git"
         }
     }
 }

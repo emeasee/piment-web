@@ -15,7 +15,7 @@
  * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  *  `em` units.
  */
-/* line 23, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 23, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -27,7 +27,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 36, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 36, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 body {
   margin: 0; }
 
@@ -38,7 +38,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 60, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 60, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -46,7 +46,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
  * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 72, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 72, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
@@ -57,7 +57,7 @@ audio, canvas, progress, video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 86, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 86, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -66,7 +66,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 97, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 97, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 [hidden], template {
   display: none; }
 
@@ -75,14 +75,14 @@ audio:not([controls]) {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 108, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 108, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 a {
   background: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 117, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 117, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -91,21 +91,21 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 129, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 129, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 138, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 138, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 152, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 152, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 dfn {
   font-style: italic; }
 
@@ -113,7 +113,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 161, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 161, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -121,7 +121,7 @@ h1 {
 /**
  * Addresses styling not present in IE 8/9.
  */
-/* line 197, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 197, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 mark {
   background: #ff0;
   color: #000; }
@@ -129,25 +129,25 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 236, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 236, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 245, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 245, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 252, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 252, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 sup {
   top: -0.5em; }
 
-/* line 256, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 256, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -157,14 +157,14 @@ sub {
  * 1. Remove border when inside `a` element in IE 8/9/10.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 311, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 311, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 322, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 322, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -173,14 +173,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 333, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 333, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 341, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 341, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -189,7 +189,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 351, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 351, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 pre {
   overflow: auto; }
 
@@ -197,7 +197,7 @@ pre {
  * Address odd `em`-unit font size rendering in all browsers.
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 363, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 363, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -215,7 +215,7 @@ code, kbd, pre, samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  * 4. Improves appearance and consistency in all browsers.
  */
-/* line 391, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 391, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button, input, optgroup, select, textarea {
   color: inherit;
   /* 1 */
@@ -227,7 +227,7 @@ button, input, optgroup, select, textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 405, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 405, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button {
   overflow: visible; }
 
@@ -237,7 +237,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 417, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 417, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button, select {
   text-transform: none; }
 
@@ -250,7 +250,7 @@ button, select {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *  Known issue: inner spacing remains in IE 6.
  */
-/* line 434, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 434, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -260,14 +260,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 447, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 447, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 456, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 456, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -276,7 +276,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 466, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 466, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 input {
   line-height: normal; }
 
@@ -285,7 +285,7 @@ input {
  * 2. Remove excess padding in IE 8/9/10.
  *  Known issue: excess padding remains in IE 6.
  */
-/* line 477, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 477, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
@@ -297,7 +297,7 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 493, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 493, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
@@ -306,7 +306,7 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *  (include `-moz` to future-proof).
  */
-/* line 503, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 503, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -320,14 +320,14 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 517, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 517, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 525, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 525, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -339,7 +339,7 @@ fieldset {
  * 3. Corrects text not wrapping in Firefox 3.
  * 4. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 538, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 538, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -349,7 +349,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 551, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 551, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 textarea {
   overflow: auto; }
 
@@ -357,7 +357,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 560, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 560, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 optgroup {
   font-weight: bold; }
 
@@ -366,32 +366,16 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 571, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 571, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 577, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
+/* line 577, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/normalize-scss/normalize */
 td, th {
   padding: 0; }
 
-/* Neat 1.7.0
- * http://neat.bourbon.io
- * Copyright 2012-2014 thoughtbot, inc.
- * MIT License */
-/* line 2, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/box-sizing */
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 7, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/box-sizing */
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit; }
-
-/* line 1, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/extends/button */
+/* line 1, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/extends/button */
 button, input[type="submit"] {
   -webkit-font-smoothing: antialiased;
   background-color: #D75909;
@@ -403,12 +387,12 @@ button, input[type="submit"] {
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none; }
-  /* line 13, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/extends/button */
+  /* line 13, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/extends/button */
   button:hover, input[type="submit"]:hover {
     background-color: #8e3b06;
     color: white; }
 
-/* line 1, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 1, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #171719;
@@ -417,57 +401,57 @@ body {
   font-size: 1em;
   line-height: 1.5; }
 
-/* line 10, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 10, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   line-height: 1.25em;
   margin: 0;
   text-rendering: optimizeLegibility; }
 
-/* line 17, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 17, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h1 {
   font-size: 2.25em; }
 
-/* line 21, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 21, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h2 {
   font-size: 2em; }
 
-/* line 25, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 25, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h3 {
   font-size: 1.75em; }
 
-/* line 29, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 29, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h4 {
   font-size: 1.5em; }
 
-/* line 33, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 33, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h5 {
   font-size: 1.25em; }
 
-/* line 37, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 37, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 h6 {
   font-size: 1em; }
 
-/* line 41, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 41, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 p {
   margin: 0 0 0.75em; }
 
-/* line 45, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 45, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 a {
   -webkit-transition: color 0.1s linear;
   -moz-transition: color 0.1s linear;
   transition: color 0.1s linear;
   color: #D75909;
   text-decoration: none; }
-  /* line 50, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+  /* line 50, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
   a:hover {
     color: #8e3b06; }
-  /* line 54, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+  /* line 54, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
   a:active, a:focus {
     color: #8e3b06;
     outline: none; }
 
-/* line 60, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 60, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 hr {
   border-bottom: 1px solid #171719;
   border-left: none;
@@ -475,50 +459,50 @@ hr {
   border-top: none;
   margin: 1.5em 0; }
 
-/* line 68, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 68, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 img {
   margin: 0; }
 
-/* line 72, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 72, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 blockquote {
   border-left: 2px solid #171719;
   color: #3c3c41;
   margin: 1.5em 0;
   padding-left: 0.75em; }
 
-/* line 79, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+/* line 79, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
 cite {
   color: #54545b;
   font-style: italic; }
-  /* line 83, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/typography */
+  /* line 83, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/typography */
   cite:before {
     content: '\2014 \00A0'; }
 
-/* line 1, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 1, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 fieldset {
   background: #2f2f34;
   border: 1px solid #171719;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
-/* line 10, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 10, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 input, label, select {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-size: 1em; }
 
-/* line 16, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 16, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 label {
   font-weight: bold;
   margin-bottom: 0.375em; }
-  /* line 20, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+  /* line 20, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
   label.required:after {
     content: "*"; }
-  /* line 24, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+  /* line 24, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
   label abbr {
     display: none; }
 
-/* line 29, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 29, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], select[multiple=multiple] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -535,20 +519,20 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
   width: 100%; }
-  /* line 42, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+  /* line 42, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
   textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
     border-color: black; }
-  /* line 46, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+  /* line 46, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
   textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
     border-color: #D75909;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(191, 79, 8, 0.7);
     outline: none; }
 
-/* line 53, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 53, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 textarea {
   resize: vertical; }
 
-/* line 57, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 57, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 input[type="search"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -556,64 +540,64 @@ input[type="search"] {
   -o-appearance: none;
   appearance: none; }
 
-/* line 61, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 61, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 input[type="checkbox"], input[type="radio"] {
   display: inline;
   margin-right: 0.375em; }
 
-/* line 66, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 66, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 input[type="file"] {
   margin-bottom: 0.75em;
   padding-bottom: 0.5em;
   width: 100%; }
 
-/* line 72, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/forms */
+/* line 72, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/forms */
 select {
   width: auto;
   max-width: 100%;
   margin-bottom: 1.5em; }
 
-/* line 1, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/tables */
+/* line 1, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/tables */
 table {
   border-collapse: collapse;
   margin: 0.75em 0;
   table-layout: fixed;
   width: 100%; }
 
-/* line 8, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/tables */
+/* line 8, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/tables */
 th {
   border-bottom: 1px solid black;
   font-weight: bold;
   padding: 0.75em 0;
   text-align: left; }
 
-/* line 15, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/tables */
+/* line 15, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/tables */
 td {
   border-bottom: 1px solid #171719;
   padding: 0.75em 0; }
 
-/* line 20, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/tables */
+/* line 20, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/tables */
 tr, td, th {
   vertical-align: middle; }
 
-/* line 1, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/lists */
+/* line 1, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/lists */
 ul, ol {
   margin: 0;
   padding: 0;
   list-style-type: none; }
 
-/* line 19, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/lists */
+/* line 19, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/lists */
 dl {
   margin-bottom: 0.75em; }
-  /* line 22, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/lists */
+  /* line 22, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/lists */
   dl dt {
     font-weight: bold;
     margin-top: 0.75em; }
-  /* line 27, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/lists */
+  /* line 27, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/lists */
   dl dd {
     margin: 0; }
 
-/* line 2, /Users/Mac/Nitrous/piment-box/home-piment/_scss/base/buttons */
+/* line 2, /Users/MJO/Nitrous/piment-box/home-piment/_scss/base/buttons */
 button, input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -626,6 +610,12 @@ button, input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
 
+/* line 2, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/grid */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /**
  * Dragdealer.js 0.9.7
  * http://github.com/skidding/dragdealer
@@ -633,20 +623,20 @@ button, input[type="submit"] {
  * (c) 2010+ Ovidiu Cherecheș
  * http://skidding.mit-license.org
  */
-/* line 9, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
+/* line 9, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
 .dragdealer {
   position: relative;
   height: 30px;
   background: #EEE; }
 
-/* line 14, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
+/* line 14, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
 .dragdealer .handle {
   position: absolute;
   top: 0;
   left: 0;
   cursor: pointer; }
 
-/* line 20, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
+/* line 20, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
 .dragdealer .red-bar {
   width: 100px;
   height: 30px;
@@ -656,21 +646,21 @@ button, input[type="submit"] {
   line-height: 30px;
   text-align: center; }
 
-/* line 29, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
+/* line 29, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/skidding--dragdealer/src/dragdealer */
 .dragdealer .disabled {
   background: #898989; }
 
-/* line 5, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 5, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 html, body, .js .container, .js .dragslider, .js .img-dragger .handle {
   height: 100%; }
 
-/* line 10, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 10, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 html.js, .js body {
   overflow: hidden;
   position: relative; }
 
 /* Switch button */
-/* line 16, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 16, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 button.slider-switch {
   font-size: 0;
   width: 60px;
@@ -689,11 +679,11 @@ button.slider-switch {
   transition: opacity 0.3s;
   pointer-events: auto; }
 
-/* line 39, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 39, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 button.slider-switch:hover {
   opacity: 1; }
 
-/* line 43, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 43, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 button.content-switch {
   outline: none;
   width: 160px;
@@ -701,7 +691,7 @@ button.content-switch {
   text-indent: 200%;
   overflow: hidden;
   white-space: nowrap;
-  color: #D75909;
+  color: #171719;
   border: 1px solid #FAEAAA;
   position: absolute;
   cursor: pointer;
@@ -720,11 +710,11 @@ button.content-switch {
   -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.7, 0, 0.3, 1), opacity 0.3s, color 0.3s, border-color 0.3s;
   transition: transform 0.6s cubic-bezier(0.7, 0, 0.3, 1), opacity 0.3s, color 0.3s, border-color 0.3s; }
 
-/* line 70, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 70, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 button.content-switch:hover {
   opacity: 1; }
 
-/* line 74, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 74, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 button.content-switch::before {
   content: 'SAVOIR PLUS';
   speak: none;
@@ -738,7 +728,7 @@ button.content-switch::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 88, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 88, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 header {
   position: fixed;
   z-index: 1000;
@@ -749,7 +739,7 @@ header {
   pointer-events: none;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s; }
-  /* line 99, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 99, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   header h1 {
     margin: 0;
     color: #FAEAAA;
@@ -759,148 +749,148 @@ header {
     padding: 1.5em;
     letter-spacing: 1px;
     float: left; }
-  /* line 110, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 110, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   header .message {
     display: none;
     clear: both;
     color: #D75909; }
 
-/* line 117, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+/* line 117, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
 article {
   overflow: auto; }
-  /* line 119, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 119, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   article h1 {
     display: block;
     margin: 0;
     padding: 80px 0;
     z-index: -1; }
-  /* line 125, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 125, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   article h2 {
     padding-bottom: 5em; }
 
 @media screen and (min-width: 53.75em) {
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-1:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-2 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-2:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-3:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-4:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-5:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-6 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-6:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-7 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-7:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-8 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-8:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-9 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-9:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-10 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-10:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-11 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-11:last-child {
       margin-right: 0; }
 
-  /* line 132, /Users/Mac/Nitrous/piment-box/home-piment/_scss/html */
+  /* line 132, /Users/MJO/Nitrous/piment-box/home-piment/_scss/html */
   .col-12 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
+    /* line 38, /Users/MJO/Nitrous/piment-box/home-piment/bower_components/neat/app/assets/stylesheets/grid/span-columns */
     .col-12:last-child {
       margin-right: 0; }
  }
 
-/* line 2, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 2, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .dragslider {
   position: absolute;
   top: 0;
@@ -909,7 +899,7 @@ article {
   height: 100%;
   -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.7, 0, 0.3, 1);
   transition: transform 0.6s cubic-bezier(0.7, 0, 0.3, 1); }
-/* line 12, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 12, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .img-dragger {
   position: absolute;
   width: 100%;
@@ -918,40 +908,40 @@ article {
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0); }
-  /* line 21, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+  /* line 21, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
   .js .img-dragger .handle {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     white-space: nowrap;
     font-size: 0; }
-/* line 29, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 29, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .img-dragger-large {
   width: 100%;
   height: 100%; }
-  /* line 34, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+  /* line 34, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
   .js .img-dragger-large .slide h2 {
-    width: 70%;
+    width: 60%;
     left: 12%;
     top: 50%;
     text-align: left;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0); }
-/* line 54, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 54, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .img-dragger-small .slide h2 {
   font-size: 2.5em;
   padding-top: 1em;
   top: 100%;
   width: 100%;
-  text-align: center;
+  text-align: left;
   color: #FAEAAA;
   -webkit-animation: slideUpFade 0.4s 0.1s; }
-/* line 67, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 67, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .slide h2 {
   color: #FAEAAA;
   position: absolute;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s; }
-/* line 75, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 75, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .pages {
   position: absolute;
   top: 100%;
@@ -961,7 +951,7 @@ article {
   -webkit-overflow-scrolling: touch;
   -webkit-transition: height 0s 0.6s;
   transition: height 0s 0.6s; }
-  /* line 85, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+  /* line 85, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
   .js .pages .content {
     position: absolute;
     top: 0;
@@ -971,7 +961,7 @@ article {
     overflow: hidden;
     -webkit-transition: height 0s 0.6s;
     transition: height 0s 0.6s; }
-    /* line 95, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+    /* line 95, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
     .js .pages .content div, .js .pages .content h2, .js .pages .content ul {
       -webkit-transform: translate3d(0, 200px, 0);
       transform: translate3d(0, 200px, 0);
@@ -981,46 +971,46 @@ article {
       transition-duration: 0.3s;
       -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
       transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1); }
-/* line 109, /Users/Mac/Nitrous/piment-box/home-piment/_scss/js */
+/* line 109, /Users/MJO/Nitrous/piment-box/home-piment/_scss/js */
 .js .show-content .pages {
   -webkit-transition: none;
   transition: none;
   height: 100%; }
 
-/* line 2, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 2, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .dragslider h2 {
   font-size: 5em;
   font-weight: 300;
   margin: 0 auto;
-  line-height: 1;
+  line-height: 1.2;
   position: relative; }
-  /* line 8, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 9, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .dragslider h2 span {
     display: block;
     font-size: 27%;
     font-weight: 300;
     padding-top: 0.2em; }
-/* line 16, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 17, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .dragslider.show-content {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0); }
 
-/* line 24, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 25, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .slide h2 i {
   font-style: normal;
   font-weight: 300; }
-/* line 31, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 32, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .slide:first-child button.content-switch {
   width: 220px; }
-/* line 34, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 35, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .slide:first-child button.content-switch::before {
   content: 'VOIR NOS SERVICES'; }
 
-/* line 40, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 41, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .img-dragger {
   position: relative;
   z-index: 100; }
-  /* line 44, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 45, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .img-dragger .slide {
     display: inline-block;
     position: relative;
@@ -1037,137 +1027,137 @@ article {
     -ms-user-select: none;
     user-select: none;
     vertical-align: top; }
-    /* line 61, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+    /* line 62, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
     .img-dragger .slide:active {
       cursor: -webkit-grabbing;
       cursor: -moz-grabbing; }
 
-/* line 71, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 72, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .img-dragger-small .slide h2 span {
   font-size: 0.35em; }
-/* line 77, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 78, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .img-dragger-small .slide.current h2 {
   opacity: 1;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-transition: color 0.3s, opacity 0.3s;
   transition: color 0.3s, opacity 0.3s; }
-/* line 88, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 89, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .img-dragger-small button.content-switch {
   opacity: 0;
   pointer-events: none; }
 
-/* line 94, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 95, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .img-wrap {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden; }
-  /* line 100, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 101, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .img-wrap img, .img-wrap video {
     position: absolute;
     display: block;
     height: calc(100% + 0.2px);
     opacity: 0.2; }
 
-/* line 110, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 111, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .show-content .current button.content-switch {
   border-color: #171719;
   background: transparent;
   color: #171719;
   -webkit-transform: translate3d(-50%, 100%, 0);
   transform: translate3d(-50%, 100%, 0); }
-  /* line 117, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 118, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .show-content .current button.content-switch:before {
     content: 'ACCUEIL'; }
 
-/* line 124, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 125, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .pages {
   background: white; }
-  /* line 127, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 128, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .pages .content {
     text-align: left;
     color: #171719;
     font-size: 1.2em; }
 
 /* Switch */
-/* line 138, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 139, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .switch-min .img-dragger-large .slide > *:not(.img-wrap), .switch-max .img-dragger-small .slide > *:not(.img-wrap) {
   /* fade out everything except image */
   opacity: 0;
   -webkit-transition: none;
   transition: none; }
 
-/* line 145, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 146, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .switch-min .img-dragger-large, .switch-max .img-dragger-small {
   -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.7, 0, 0.3, 1);
   transition: transform 0.6s cubic-bezier(0.7, 0, 0.3, 1); }
 
 /* Helper classes */
-/* line 151, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 152, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .no-transition {
   -webkit-transition: none !important;
   transition: none !important; }
 
-/* line 156, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+/* line 157, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
 .hide {
   opacity: 0 !important;
   pointer-events: none !important; }
 
 /* Basic Media query stuff */
 @media screen and (min-aspect-ratio: 1280/850) {
-  /* line 163, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 164, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .img-dragger .img-wrap img {
     width: calc(100% + 0.2px);
     height: auto; }
  }
 
 @-webkit-keyframes slideUpFade {
-  /* line 170, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 171, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 20px, 0); }
 
-  /* line 174, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 175, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0); } }
 
 @media screen and (max-width: 63.125em) {
-  /* line 181, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 182, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .dragslider h2 {
     font-size: 2.8em;
     left: 15% !important; }
 
-  /* line 185, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 186, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   .pages .content {
     font-size: 100%; }
-    /* line 187, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+    /* line 188, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
     .pages .content h2 {
       font-size: 1em;
       left: 0% !important;
       margin-top: 6em; }
-    /* line 192, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+    /* line 193, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
     .pages .content span {
       font-size: 1.5em; }
  }
 
 @media screen and (max-width: 650px) {
-  /* line 199, /Users/Mac/Nitrous/piment-box/home-piment/_scss/home */
+  /* line 200, /Users/MJO/Nitrous/piment-box/home-piment/_scss/home */
   button.slider-switch {
     display: none; }
  }
 
-/* line 3, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 3, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js .dragslider h2 {
   padding: 15px; }
-/* line 8, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 8, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js button.slider-switch {
   display: none; }
-/* line 12, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 12, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js button.content-switch {
   display: none; }
-/* line 17, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 17, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js .img-dragger, .no-js .img-dragger .handle {
   height: auto;
   position: relative;
@@ -1176,15 +1166,15 @@ article {
   clear: both;
   white-space: nowrap;
   overflow: auto; }
-/* line 28, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 28, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js .img-dragger .handle {
   padding: 40px 0 0; }
-/* line 32, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 32, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js .img-dragger .slide {
   width: 300px;
   font-size: 7px;
   min-height: 200px; }
-/* line 41, /Users/Mac/Nitrous/piment-box/home-piment/_scss/nojs */
+/* line 41, /Users/MJO/Nitrous/piment-box/home-piment/_scss/nojs */
 .no-js .pages .content h2 {
   padding-top: 1em; }
 

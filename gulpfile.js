@@ -34,6 +34,7 @@ gulp.task('vendor-scripts', ['jekyll-build'], function() {
 /**
  * Build the Jekyll Site
  */
+//FIXME: I have no idea why but this runs like 4 times if there is no _site folder. Trace the order of the gulp functions
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('bundle', ['exec','jekyll','build'], { stdio: 'inherit' })
@@ -100,6 +101,8 @@ gulp.task('build', ['js', 'css']);
 /**
  * Compile files from src into both _site/dist/css (for live injecting) and dist/css (for future jekyll builds)
  */
+
+//TODO: CSS does not need to be moved to site folder
 gulp.task('css', function () {
     gulp.src('css/**/*.css')
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
@@ -110,7 +113,7 @@ gulp.task('css', function () {
         .pipe(gulp.dest('./dist/css'));
 });
 
-
+//TODO: Needs to be improved so to concat all the dependencies... how??
 gulp.task('js', function() {
     gulp.src('js/**/*.js')
         .pipe(gulp.dest('_site/js'))
@@ -141,6 +144,7 @@ gulp.task('watch', function () {
     // gulp.watch('src/images/**/*.+(png|jpeg|jpg|gif|svg)', ['images']);
 });
 
+//TODO: Need to figure out how to move relevant jekyll files to the dist folder
 gulp.task('deploy', function () {
     return gulp.src('./dist/**/*')
         .pipe(deploy(options));

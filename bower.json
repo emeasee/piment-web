@@ -8,12 +8,8 @@
     "fitvids": "~1.1.0",
     "classie": "~1.0.1",
     "skidding--dragdealer": "~0.9.7",
-    "bourbon": "~4.0.2",
-    "neat": "~1.7.0",
+    "bourbon": "~3.2.3",
+    "neat": "~1.5.1",
     "normalize-scss": "~3.0.1"
-  },
-  "devDependencies": {
-    "bourbon": "~4.0.2",
-    "neat": "~1.7.0"
   }
 }
