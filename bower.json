@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "piment",
   "version": "0.1",
   "dependencies": {
     "fluidbox": "~1.2.2",
