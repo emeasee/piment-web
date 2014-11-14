@@ -5,9 +5,15 @@
     "fluidbox": "~1.2.2",
     "jquery": "~1.11.1",
     "modernizr": "~2.7.2",
-    "normalize-css": "~3.0.0",
     "fitvids": "~1.1.0",
     "classie": "~1.0.1",
-    "skidding--dragdealer": "~0.9.7"
+    "skidding--dragdealer": "~0.9.7",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0",
+    "normalize-scss": "~3.0.1"
+  },
+  "devDependencies": {
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0"
   }
 }
