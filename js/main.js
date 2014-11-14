@@ -355,6 +355,7 @@
 		});
 	}
 
+
 	/**
 	 * add to global namespace
 	 */

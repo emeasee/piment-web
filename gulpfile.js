@@ -43,7 +43,7 @@ gulp.task('jekyll-build', function (done) {
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['build', 'jekyll-build'], function () {
+gulp.task('jekyll-rebuild', ['build', 'index'], function () {
     browserSync.reload();
 });
 
@@ -77,7 +77,7 @@ gulp.task('index', ['vendor-scripts'], function() {
     }))
 
     .pipe(inject(
-      gulp.src(['_site/dist/js/build.min.js'], { read: false }), {
+      gulp.src(['_site/js/*.js'], { read: false }), {
         addRootSlash: false,
         transform: function(filePath, file, i, length) {
           return '<script src="' + filePath.replace('_site/', '') + '"></script>';
@@ -104,21 +104,21 @@ gulp.task('css', function () {
     gulp.src('css/**/*.css')
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(minifyCSS())
+        .pipe(gulp.dest('_site/css'))
         .pipe(rename('build.min.css'))
-        .pipe(gulp.dest('_site/dist/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('./dist/css'));
 });
 
 
 gulp.task('js', function() {
     gulp.src('js/**/*.js')
+        .pipe(gulp.dest('_site/js'))
         .pipe(concat('build.js'))
         .pipe(uglify())
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('_site/dist/js'))
         .pipe(browserSync.reload({ stream: true }))
-        .pipe(gulp.dest('dist/js'));
+        .pipe(gulp.dest('./dist/js'));
 });
 
 // gulp.task('images', function() {
@@ -142,7 +142,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('deploy', function () {
-    return gulp.src('./_dist/**/*')
+    return gulp.src('./dist/**/*')
         .pipe(deploy(options));
 });
 
