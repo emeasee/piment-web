@@ -13,7 +13,7 @@ var uglify      = require('gulp-uglify');
 var concat      = require('gulp-concat');
 var imagemin    = require('gulp-imagemin');
 var bower       = require('gulp-bower');
-var deploy = require('gulp-gh-pages');
+var deploy      = require('gulp-gh-pages');
 
 
 var config = {
