@@ -122,13 +122,14 @@
   }
 }
 
-//NOTE: MAIN STYLING FOR CONTENT PAGES
+//NOTE: CONTENT PAGE
 .pages {
     background: white;
     .content {
         text-align: left;
         color: $base-font-color;
         font-size: 1.2em;
+        //NOTE: TITLE MIDDLE SUMMARY BLOCK
         .intro-text {
             $intro-text-width: 60%;
             margin-bottom: 5em;
