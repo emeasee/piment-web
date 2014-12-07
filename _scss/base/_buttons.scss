@@ -8,3 +8,13 @@ input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap;
 }
+
+.standard{
+    @extend %button;
+    @include appearance(none);
+      border: none;
+      cursor: pointer;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+}

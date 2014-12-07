@@ -32,19 +32,12 @@
 
     .slide{
       h2 {
-        width: 60%;
+        width: 80%;
         left: 12%;
         top: 50%;
         text-align: left;
         -webkit-transform: translate3d(0,-50%,0);
         transform: translate3d(0,-50%,0);
-
-        &.logo{
-          //width: 90%;
-          //left: 5%;
-          //top:50%;
-          //font-size: 30em;
-        }
       }
     }
   }

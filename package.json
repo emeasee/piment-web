@@ -4,6 +4,10 @@
   "description": "Homepage of Piment Digital",
   "main": "gulpfile.js",
   "author": "Mac Oosthuizen",
+  "repository" : { 
+      "type" : "git", 
+      "url" : "https://github.com/emeasee/piment-web.git"
+  },    
   "devDependencies": {
     "browser-sync": "^1.1.2",
     "del": "^0.1.3",

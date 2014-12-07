@@ -24,11 +24,20 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+var buildpaths = {
+ main: ['_site/**/*.*', '!_site/css/*.*','!_site/js/*.*']
+};
+
 gulp.task('vendor-scripts', ['jekyll-build'], function() {
 
   return gulp.src(wiredep().js)
     .pipe(gulp.dest('_site/js/vendor'));
 
+});
+
+gulp.task('copy', function() {
+   gulp.src(buildpaths.main)
+   .pipe(gulp.dest('dist/'));
 });
 
 /**
@@ -96,7 +105,7 @@ gulp.task('index', ['vendor-scripts'], function() {
     .pipe(gulp.dest('_site'));
 });
 
-gulp.task('build', ['js', 'css']);
+gulp.task('build', ['js', 'css','images']);
 
 /**
  * Compile files from src into both _site/dist/css (for live injecting) and dist/css (for future jekyll builds)
@@ -108,29 +117,26 @@ gulp.task('css', function () {
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(minifyCSS())
         .pipe(gulp.dest('_site/css'))
-        .pipe(rename('build.min.css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('dist/css'));
 });
 
 //TODO: Needs to be improved so to concat all the dependencies... how??
 gulp.task('js', function() {
     gulp.src('js/**/*.js')
         .pipe(gulp.dest('_site/js'))
-        .pipe(concat('build.js'))
+        //.pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(rename({ suffix: '.min' }))
         .pipe(browserSync.reload({ stream: true }))
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('dist/js'));
 });
 
-// gulp.task('images', function() {
-//     gulp.src('src/images/**/*.+(png|jpeg|jpg|gif|svg)')
-//         .pipe(imagemin())
-//         .pipe(gulp.dest('_site/dist/img'))
-//         .pipe(browserSync.reload({ stream: true }))
-//         .pipe(gulp.dest('dist/img'));
-// })
+ gulp.task('images', function() {
+     gulp.src('img/**/*.+(png|jpeg|jpg|gif|svg)')
+         //.pipe(imagemin())
+         .pipe(gulp.dest('_site/img'))
+         .pipe(browserSync.reload({ stream: true }));
+ })
 
 
 /**
@@ -141,13 +147,13 @@ gulp.task('watch', function () {
     gulp.watch('css/*.css', ['css']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*', '_config.yml'], ['jekyll-rebuild']);
     gulp.watch('js/*.js', ['js']);
-    // gulp.watch('src/images/**/*.+(png|jpeg|jpg|gif|svg)', ['images']);
+    gulp.watch('img/**/*.+(png|jpeg|jpg|gif|svg)', ['images']);
 });
 
 //TODO: Need to figure out how to move relevant jekyll files to the dist folder
-gulp.task('deploy', function () {
+gulp.task('deploy', ['copy'], function () {
     return gulp.src('./dist/**/*')
-        .pipe(deploy(options));
+        .pipe(deploy());
 });
 
 /**

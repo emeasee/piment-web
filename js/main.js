@@ -187,15 +187,16 @@
 				}
 			}
 		} );
-
-		if (window.addEventListener) {
+        
+        //TODO: Re-activate scroll handler once we have content
+		/*if (window.addEventListener) {
 			// IE9, Chrome, Safari, Opera
 			window.addEventListener("mousewheel", MouseWheelHandler, false);
 			// Firefox
 			window.addEventListener("DOMMouseScroll", MouseWheelHandler, false);
 		}
 			// IE 6/7/8
-			else window.attachEvent("onmousewheel", MouseWheelHandler);
+			else window.attachEvent("onmousewheel", MouseWheelHandler);*/
 	}
 
 	/**

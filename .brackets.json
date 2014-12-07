@@ -14,7 +14,7 @@
                 "sourceComments": "map",
                 "outputStyle": "nested"
             },
-            "linting.collapsed": false,
+            "linting.collapsed": true,
             "mikaeljorhult.bracketsTodo.enabled": false,
             "brackets-git.gitPath": "git"
         }

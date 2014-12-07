@@ -1,6 +1,6 @@
 // Typography
 $sans-serif: 'Roboto', sans-serif;
-$serif: $georgia;
+$serif: 'Georgia';
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
 
@@ -30,8 +30,8 @@ $base-accent-color: $red;
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $base-link-color;
-$hover-button-color: $hover-link-color;
+$base-button-color: $light-gray;
+$hover-button-color: $red;
 
 // Border color
 $base-border-color: $dark-gray;
