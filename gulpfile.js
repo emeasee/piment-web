@@ -14,7 +14,7 @@ var concat      = require('gulp-concat');
 var imagemin    = require('gulp-imagemin');
 var bower       = require('gulp-bower');
 var deploy      = require('gulp-gh-pages');
-
+var del         = require('del');
 
 var config = {
     bowerDir: './bower_components'
@@ -25,7 +25,7 @@ var messages = {
 };
 
 var buildpaths = {
- main: ['_site/**/*.*', '!_site/css/*.*','!_site/js/*.*']
+ main: ['_site/**/*', '!_site/css/*.*','!_site/js/*.*']
 };
 
 gulp.task('vendor-scripts', ['jekyll-build'], function() {
@@ -35,9 +35,14 @@ gulp.task('vendor-scripts', ['jekyll-build'], function() {
 
 });
 
-gulp.task('copy', function() {
+gulp.task('clean', function(cb) {
+  del(['dist'], cb);
+});
+
+gulp.task('copy', ['clean'], function() {
    gulp.src(buildpaths.main)
    .pipe(gulp.dest('dist/'));
+   gulp.start('build');    
 });
 
 /**
@@ -111,7 +116,6 @@ gulp.task('build', ['js', 'css','images']);
  * Compile files from src into both _site/dist/css (for live injecting) and dist/css (for future jekyll builds)
  */
 
-//TODO: CSS does not need to be moved to site folder
 gulp.task('css', function () {
     gulp.src('css/**/*.css')
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
@@ -150,7 +154,7 @@ gulp.task('watch', function () {
     gulp.watch('img/**/*.+(png|jpeg|jpg|gif|svg)', ['images']);
 });
 
-//TODO: Need to figure out how to move relevant jekyll files to the dist folder
+
 gulp.task('deploy', ['copy'], function () {
     return gulp.src('./dist/**/*')
         .pipe(deploy());
