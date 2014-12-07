@@ -277,10 +277,17 @@
 }
 
 @media screen and (max-width: 650px) {
+    header{
+    top: 0;
+    }
     .dragslider h2 {
         font-size: 3em;
+        left: 8%!important;
         span{
             width:100%;
+        }
+        .away{
+          display:none;
         }
         a{
           width:100%;
