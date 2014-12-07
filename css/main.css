@@ -1005,30 +1005,35 @@ article {
     padding-top: 1.5em;
     width: 80%; }
   /* line 16, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  .dragslider h2 small {
+    font-size: 50%;
+    clear: both;
+    float: left; }
+  /* line 21, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .dragslider h2 a {
     font-size: 80%;
     margin: 0.5em 0.3em; }
-/* line 22, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 27, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .dragslider.show-content {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0); }
 
-/* line 30, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 35, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .slide h2 i {
   font-style: normal;
   font-weight: 300; }
-/* line 37, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 42, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .slide:first-child button.content-switch {
   width: 220px; }
-/* line 40, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 45, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .slide:first-child button.content-switch::before {
   content: 'VOIR NOS SERVICES'; }
 
-/* line 46, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 51, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .img-dragger {
   position: relative;
   z-index: 100; }
-  /* line 50, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 55, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .img-dragger .slide {
     display: inline-block;
     position: relative;
@@ -1045,64 +1050,64 @@ article {
     -ms-user-select: none;
     user-select: none;
     vertical-align: top; }
-    /* line 67, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 72, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .img-dragger .slide:active {
       cursor: -webkit-grabbing;
       cursor: -moz-grabbing; }
 
-/* line 77, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 82, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .img-dragger-small .slide h2 span {
   font-size: 0.35em; }
-/* line 83, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 88, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .img-dragger-small .slide.current h2 {
   opacity: 1;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-transition: color 0.3s, opacity 0.3s;
   transition: color 0.3s, opacity 0.3s; }
-/* line 94, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 99, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .img-dragger-small button.content-switch {
   opacity: 0;
   pointer-events: none; }
 
-/* line 100, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 105, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .img-wrap {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden; }
-  /* line 106, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 111, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .img-wrap img, .img-wrap video {
     position: absolute;
     display: block;
     height: calc(100% + 0.2px);
     opacity: 0.15; }
 
-/* line 116, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 121, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .show-content .current button.content-switch {
   border-color: #171719;
   background: transparent;
   color: #171719;
   -webkit-transform: translate3d(-50%, 100%, 0);
   transform: translate3d(-50%, 100%, 0); }
-  /* line 123, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 128, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .show-content .current button.content-switch:before {
     content: 'ACCUEIL'; }
 
-/* line 131, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 136, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .pages {
   background: white; }
-  /* line 133, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 138, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .pages .content {
     text-align: left;
     color: #171719;
     font-size: 1.2em; }
-    /* line 138, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 143, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .pages .content .intro-text {
       margin-bottom: 5em;
       margin-top: 4em;
       text-align: center; }
-      /* line 143, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 148, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content .intro-text h2 {
         font-family: 'Georgia';
         font-weight: 800;
@@ -1111,7 +1116,7 @@ article {
           .pages .content .intro-text h2 {
             font-size: 3em;
             margin-bottom: 0.4em; } }
-      /* line 152, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 157, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content .intro-text h3 {
         background: #D75909;
         color: white;
@@ -1124,7 +1129,7 @@ article {
         @media screen and (min-width: 53.75em) {
           .pages .content .intro-text h3 {
             margin-bottom: 3.3em; } }
-      /* line 165, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 170, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content .intro-text h4 {
         color: #48484e;
         font-size: 1.3em;
@@ -1137,27 +1142,27 @@ article {
             line-height: 1.35em;
             margin: 0 auto 1em;
             width: 60%; } }
-      /* line 178, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 183, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content .intro-text p {
         margin: auto; }
         @media screen and (min-width: 53.75em) {
           .pages .content .intro-text p {
             width: 60%; } }
-        /* line 183, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+        /* line 188, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
         .pages .content .intro-text p a {
           font-size: 0.8em;
           font-weight: 400;
           text-transform: uppercase; }
-          /* line 187, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+          /* line 192, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
           .pages .content .intro-text p a span {
             font-size: 1.3em;
             line-height: 0; }
-    /* line 194, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 199, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .pages .content.show {
       height: auto;
       -webkit-transition: none;
       transition: none; }
-      /* line 198, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 203, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content.show div, .pages .content.show h2, .pages .content.show ul {
         -webkit-transition-duration: 1s;
         transition-duration: 1s;
@@ -1165,97 +1170,94 @@ article {
         transition-property: transform, opacity;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0); }
-      /* line 206, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 211, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content.show div {
         -webkit-transition-delay: 0.2s;
         transition-delay: 0.2s; }
-      /* line 210, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+      /* line 215, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
       .pages .content.show ul {
         -webkit-transition-delay: 0.1s;
         transition-delay: 0.1s; }
 
 /* Switch */
-/* line 220, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 225, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .switch-min .img-dragger-large .slide > *:not(.img-wrap), .switch-max .img-dragger-small .slide > *:not(.img-wrap) {
   /* fade out everything except image */
   opacity: 0;
   -webkit-transition: none;
   transition: none; }
 
-/* line 227, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 232, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .switch-min .img-dragger-large, .switch-max .img-dragger-small {
   -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.7, 0, 0.3, 1);
   transition: transform 0.6s cubic-bezier(0.7, 0, 0.3, 1); }
 
 /* Helper classes */
-/* line 233, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 238, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .no-transition {
   -webkit-transition: none !important;
   transition: none !important; }
 
-/* line 238, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+/* line 243, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
 .hide {
   opacity: 0 !important;
   pointer-events: none !important; }
 
 /* Basic Media query stuff */
 @media screen and (min-aspect-ratio: 1280/850) {
-  /* line 245, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 250, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .img-dragger .img-wrap img {
     width: calc(100% + 0.2px);
     height: auto; }
  }
 
 @-webkit-keyframes slideUpFade {
-  /* line 252, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 257, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   from {
     opacity: 0;
     -webkit-transform: translate3d(0, 20px, 0); }
 
-  /* line 256, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 261, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0); } }
 
 @media screen and (max-width: 63.125em) {
-  /* line 263, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 268, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .dragslider h2 {
     font-size: 4em; }
 
-  /* line 266, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 271, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .pages .content {
     font-size: 100%; }
-    /* line 268, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 273, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .pages .content h2 {
       font-size: 1em;
       left: 0% !important;
       margin-top: 6em; }
-    /* line 273, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 278, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .pages .content span {
-      font-size: 1.5em; }
+      font-size: 1em; }
  }
 
 @media screen and (max-width: 650px) {
-  /* line 280, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 285, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   header {
     top: 0; }
 
-  /* line 283, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 288, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   .dragslider h2 {
-    font-size: 3em;
+    font-size: 2em;
     left: 8% !important; }
-    /* line 286, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 291, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .dragslider h2 span {
       width: 100%; }
-    /* line 289, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
-    .dragslider h2 .away {
-      display: none; }
-    /* line 292, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+    /* line 297, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
     .dragslider h2 a {
       width: 100%;
       text-align: center; }
 
-  /* line 297, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
+  /* line 302, /Users/MJO/Nitrous/piment-box/projects/piment-web/_scss/home */
   button.slider-switch {
     display: none; }
  }
